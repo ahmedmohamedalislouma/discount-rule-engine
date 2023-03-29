@@ -27,7 +27,7 @@ lazy val root = (project in file("."))
   
 The version and scalaVersion settings are used to specify the version of the project and the version of Scala to use, respectively.
 
-The lazy val root setting is used to define the project itself. In this case, the project is defined as a single module with the name "Lab1". The settings block contains various settings for the project, including library dependencies. In this case, the project depends on the OpenCSV and MySQL Connector/J libraries.
+The lazy val root setting is used to define the project itself. In this case, the project is defined as a single module with the name "your project name". The settings block contains various settings for the project, including library dependencies. In this case, the project depends on the OpenCSV and MySQL Connector/J libraries.
 
 To build the project, run the sbt compile command. This will compile the project and download any necessary dependencies. To run the project, use the sbt run command.
 

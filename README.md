@@ -5,7 +5,7 @@ This is a Scala program that processes CSV files in a specified directory and ap
 
 Clone the repository from GitHub:
 
-git clone https://github.com/<username>/rule-engine.git
+git clone https://github.com/ahmedmohamedalislouma/discount-rule-engine.git
 
 
 # SBT Configuration
@@ -33,7 +33,7 @@ To build the project, run the sbt compile command. This will compile the project
 
 Place CSV files in the raw_data directory.
 The program will automatically process any new CSV files that are added to the directory.
-The discounted transactions will be inserted into the trx table in the MySQL database.
+The discounted transactions will be inserted into the table in the MySQL database.
 
 # Configuration
 

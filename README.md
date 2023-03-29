@@ -17,7 +17,7 @@ ThisBuild / scalaVersion := "2.13.10"
 
 lazy val root = (project in file("."))
   .settings(
-    name := "Lab1",
+    name := "your project name",
     libraryDependencies ++= Seq(
       "com.opencsv" % "opencsv" % "5.7.1",
       "mysql" % "mysql-connector-java" % "8.0.32"

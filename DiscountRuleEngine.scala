@@ -70,7 +70,7 @@ object RuleEngine extends App {
     })
 
 
-    val daysRemainingDiscount = Map((0 to 29).map(day => day -> (1.0 - day )* 0.01).reverse: _*)
+    val daysRemainingDiscount = Map((0 to 29).map(day => day -> ((30 - day) * 0.01)*100).reverse: _*)
 
 
     // Define a function to calculate the days remaining for expiry

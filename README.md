@@ -1,4 +1,4 @@
-# discount-rule-engine
+# Scala Discount Rule Engine
 This is a Scala program that processes CSV files in a specified directory and applies a set of rules to the data to calculate discounts for each transaction. The discounted transactions are then inserted into a MySQL database table.
 
 # Installation
